@@ -1,0 +1,25 @@
+{
+  "name": "transcript-from-audiofiles",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve:static": "npx serve ./static",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Matthias Buchholz",
+  "license": "ISC",
+  "devDependencies": {
+    "@wdio/cli": "^6.5.0",
+    "@wdio/local-runner": "^6.5.0",
+    "@wdio/mocha-framework": "^6.5.0",
+    "@wdio/spec-reporter": "^6.4.7",
+    "@wdio/sync": "^6.5.0",
+    "chromedriver": "^85.0.1",
+    "wdio-chromedriver-service": "^6.0.4"
+  },
+  "dependencies": {
+    "ip": "^1.1.5"
+  }
+}

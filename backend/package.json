@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "serve ./static -l ${STATIC_BACKEND_PORT:-5000}"
+    "start": "node ./src/index.js"
   },
   "keywords": [],
   "author": "Matthias Buchholz",

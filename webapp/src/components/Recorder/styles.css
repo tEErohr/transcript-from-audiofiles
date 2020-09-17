@@ -1,0 +1,21 @@
+.toggle[data-recording-state] {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.toggle[data-recording-state] button {
+  display: none;
+}
+
+.toggle[data-recording-state="ready"] button[data-recording-state="ready"] {
+  display: block;
+}
+
+.toggle[data-recording-state="recording"] button[data-recording-state="recording"] {
+  display: block;
+}
+
+.toggle[data-recording-state="stopped"] button[data-recording-state="stopped"] {
+  display: block;
+}
